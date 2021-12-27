@@ -1,0 +1,101 @@
+.resers{
+  width: 100%;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #00000050;
+  z-index: 50;
+}
+.popup{
+  width: 500px;
+  height: 300px;
+  background-color: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 50;
+  &__close{
+    position: absolute;
+    top: 0;
+    right: -60px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    &::before{
+      content: '';
+      position: absolute;
+      width: 3px;
+      height: 100%;
+      background-color: red;
+      transform: rotate(-45deg);
+    }
+    &::after{
+      content: '';
+      position: absolute;
+      width: 3px;
+      height: 100%;
+      background-color: red;
+      transform: rotate(45deg);
+    }
+  }
+  &__resers{
+    text-align: center;
+    &-form{
+      padding: 10px 0 25px;
+      background: url("../images/popup/cat.jpg") center/cover no-repeat;
+      &_title{
+        font-family: Righteous,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 130%;
+        color: #FFFFFF65;
+        text-align: center;
+      }
+      &_subtitle{
+        font-family: Righteous,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 130%;
+        color: #FFFFFF65;
+        text-transform: uppercase;
+        padding: 15px 0 0;
+        text-align: center;
+      }
+      &_desc{
+        font-family: Righteous,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 130%;
+        color: #FFFFFF65;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 15px;
+      }
+      &_img{
+        padding: 25px 0;
+        width: 80px;
+      }
+      &_tel{
+        width: 50%;
+        height: 30px;
+        border: none;
+        outline: none;
+        background-color: #ffffff80;
+        font-family: Righteous,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 130%;
+        color: #FFFFFF65;
+        text-transform: uppercase;
+        padding-left: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Righteous&family=Urbanist:wght@500;600&display=swap');
+@import "../libs/fontello/css/fontello.css";
+//font-family: 'Inter', sans-serif;
+//font-family: 'Righteous', cursive;
+//font-family: 'Urbanist', sans-serif;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+body{
+  background: #1C1814;
+}
+.container{
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+
+.swiper {
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #1C1814;
+}
+
+.swiper-slide img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.swiper-pagination-fraction {
+  color: #C99E71;
+}
+.swiper-button-next {
+  width: 56px;
+  height: 56px;
+  color: #000;
+}
+.swiper-button-next{
+  background: #C99E71;
+  border-radius: 50px;
+  top: calc(100% - 56px);
+  left: calc(100% - 56px);
+  --swiper-navigation-size: 25px;
+  transition: .5s;
+  &:hover{
+    background-color: #fff;
+    transition: .5s;
+  }
+}
+.swiper-button-prev {
+  left: calc(100% - 132px);
+  position: absolute;
+  top: calc(100% - 56px);
+  z-index: 10;
+  cursor: pointer;
+  --swiper-navigation-size: 25px;
+  color: #fff;
+  background: #121315;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  transition: .5s;
+  &:hover{
+    background-color: #C99E71;
+    transition: .5s;
+  }
+}
+.swiper-button-prev.swiper-button-disabled{
+  opacity: 1;
+}
+
+.icon-bag{
+  &::before{
+    margin-right: 15px;
+  }
+}
+
+@import "overlay";
+@import "resers";
+
+@import "header";
+@import "home";
+@import "instruct";
+@import "history";
+@import "product";
+@import "machine";
+@import "menu";
+@import "customers";
+@import "reservation";
+@import "news";
+@import "footer";
+@import "media";

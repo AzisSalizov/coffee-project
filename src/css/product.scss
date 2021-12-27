@@ -1,0 +1,118 @@
+.product {
+  padding: 140px 0;
+  background: #14110E;
+  text-align: center;
+  &__btn{
+    font-family: Inter,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    background: #C99E71;
+    width: 252px;
+    height: 62px;
+    cursor: pointer;
+  }
+
+  &__text {
+    font-family: Urbanist, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #C99E71;
+  }
+
+  &__title {
+    font-family: Righteous, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding: 12px 0 56px;
+  }
+
+  &__content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    padding-bottom: 56px;
+  }
+  &__box{
+    width: calc(100% - 804px);
+    padding: 48px 48px 36px;
+    background: #121315;
+    &.hiden{
+      display: none;
+    }
+    &-img{
+      width: 100%;
+    }
+    &-title {
+      font-family: Righteous, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 30px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      padding: 36px 0 38px;
+    }
+    &-btn {
+      width: 169px;
+      height: 48px;
+      font-family: Urbanist, sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      background: #C99E71;
+      border: none;
+      &_btn{
+        color: #FFFFFF;
+      }
+    }
+    &-list{
+      padding: 37px 0 20px;
+      display: flex;
+      justify-content: center;
+      column-gap: 7px;
+      &_item{
+        font-family: Urbanist,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #C99E71;
+      }
+    }
+    &-titl{
+      font-family: Righteous,sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 30px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      padding-bottom: 20px;
+    }
+    &-price{
+      font-family: Urbanis,sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      span{
+        color: #C99E71;
+      }
+    }
+  }
+}

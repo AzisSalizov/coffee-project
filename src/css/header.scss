@@ -1,0 +1,36 @@
+.header{
+  padding: 32px 0;
+
+  &__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 35px;
+  }
+  &__list{
+    &-first{
+      display: flex;
+      column-gap: 50px;
+    }
+    &-second{
+      display: flex;
+      column-gap: 50px;
+    }
+  }
+  &__link{
+    font-family: Inter,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    transition: .3s;
+    &.active{
+      color: #C99E71;
+    }
+    &:hover{
+      color: #C99E71;
+      transition: .3s;
+    }
+  }
+}

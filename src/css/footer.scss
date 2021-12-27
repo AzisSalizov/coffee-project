@@ -1,0 +1,82 @@
+.footer{
+  background: #14110E;
+  &__content{
+    display: flex;
+  }
+  &__mail{
+    display: flex;
+    &-form{
+      display: flex;
+      align-items: center;
+    }
+  }
+  &__icon{
+    margin-left: -60px;
+    color: #FFF;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    background: #C99E71;
+    box-shadow: 0 22px 44px rgba(201, 158, 113, 0.2);
+    cursor: pointer;
+  }
+  &__img{
+    margin-right: 36px;
+  }
+  &__nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  &__list{
+    display: flex;
+    column-gap: 40px;
+    font-family: Urbanist,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+  }
+  &__link{
+    color: #FFFFFF;
+    transition: .3s;
+
+    &:hover{
+      transition: .3s;
+      color: #C99E71;
+
+    }
+
+  }
+  &__email{
+    font-family: Urbanist,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0 28px;
+    width: 328px;
+    height: 72px;
+    margin-left: 82px;
+    background: #1C1814;
+    border-radius: 36px;
+    border: none;
+    outline: none;
+  }
+  &__end{
+    margin-top: 72px;
+    padding: 33px 0;
+    text-align: center;
+    background: #1C1814;
+    font-family: Urbanist,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    color: #FFFFFF;
+  }
+
+}

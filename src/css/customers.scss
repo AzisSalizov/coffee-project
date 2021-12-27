@@ -1,0 +1,85 @@
+.customers{
+  position: relative;
+  padding-bottom: 140px;
+  background: #14110E;
+  &__suptitle{
+    font-family: Urbanist,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #C99E71;
+    text-align: center;
+  }
+  &__title{
+    font-family: Righteous,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 130%;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 12px 0 56px;
+  }
+  &__slider{
+  }
+  &__slide{
+    width: 100%;
+    display: flex;
+    &-box1{
+      margin: 40px 27px 40px 0;
+    }
+    &-box{
+      margin: 40px;
+      &_subtitle{
+        font-family: Urbanist,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 180%;
+        text-transform: capitalize;
+        color: rgba(255, 255, 255, 0.8);
+        opacity: 0.8;
+      }
+      &_img{
+        width: 129px;
+      }
+    }
+  }
+  &__info{
+    display: flex;
+    margin: 0 40px;
+    justify-content: space-between;
+    &-box{
+      &_title{
+        font-family: Urbanist,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+        color: #FFFFFF;
+      }
+      &_subtitle{
+        font-family: Urbanist,sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 180%;
+        text-transform: capitalize;
+        color: rgba(255, 255, 255, 0.5);
+        opacity: 0.8;
+        padding-top: 4px;
+      }
+
+      &_list{
+        display: flex;
+        column-gap: 4px;
+      }
+      &_img{
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+
+}
